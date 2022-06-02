@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
-*prints out text using the puts
-*returns 0
+*main - prints out text using the puts
+*Return: 0 if exited properly, non-zero otherwise
 */
 
 int main(void)
 {
-char str1[] = "Programming is like building a multilingual puzzle";
+char str1[] = "\"Programming is like building a multilingual puzzle";
 puts(str1);
 return (0);
 }
