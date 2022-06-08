@@ -23,9 +23,9 @@ _putchar(b + '0');
 }
 else if (b >= 10)
 {
-_putchar(',');                                                    
-_putchar(' ');                                                    
-_putchar((b / 10) + '0');                                         
+_putchar(',');
+_putchar(' ');
+_putchar((b / 10) + '0');
 _putchar((b % 10) + '0');
 }
 }
