@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *print_sign - prints the sign of a number
 *@i: int
 *Return: 1 and prints +, - and 0 depending on the number
 */
-int prints_sign(int i)
+int print_sign(int i)
 {
 if (i > 0)
 {
