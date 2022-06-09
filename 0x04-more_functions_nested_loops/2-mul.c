@@ -5,7 +5,7 @@
 *@n: int to be multi to i
 *Return: resultof the operation
 */
-int s(int i, int n)
+int mul(int i, int n)
 {
 int s;
 s = i + n;
