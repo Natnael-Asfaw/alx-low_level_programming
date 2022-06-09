@@ -8,7 +8,7 @@ int main(void)
 int i;
 printf("Infinite loop incoming :(\n");
 i = 0;
-// The cause to infinite loop
+/* The cause to infinite loop */
 while (i < 10)
 {
 putchar(i);
