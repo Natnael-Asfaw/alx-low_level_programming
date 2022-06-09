@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - causes an infinite loop
-* while (i < 10): is causing the infinite loop
+* while (i < 10)
 * Return: 0
 */
 int main(void)
