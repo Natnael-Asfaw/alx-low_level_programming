@@ -14,7 +14,7 @@ else
 int i, n;
 for (i = 0; i < size; i++)
 {
-for (n = 0; n > size; n++)
+for (n = 0; n < size; n++)
 {
 _putchar('#');
 }
