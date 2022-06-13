@@ -5,7 +5,7 @@
  *@a: pointer to the first value
  *@b: pointer of pointer and stors the second value
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 int c;
 c = *a;
