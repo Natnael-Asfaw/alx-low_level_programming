@@ -13,7 +13,7 @@ half++;
 }
 if (half % 2 == 0)
 {
-for (i = half / 2; str[i])
+for (i = half / 2; str[i] != '\n'; i++)
 {
 _putchar(str[i]);
 }
