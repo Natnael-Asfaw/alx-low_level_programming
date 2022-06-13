@@ -9,9 +9,9 @@ char na;
 int i, rev, rev1;
 rev = 0;
 rev1 = 0;
-while (s[na] != '\n')
+while (s[rev] != '\0')
 {
-na++;
+rev++;
 }
 rev1 = rev - 1;
 for (i = 0; i < rev / 2; i++)
