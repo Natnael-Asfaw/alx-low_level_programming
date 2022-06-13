@@ -9,7 +9,7 @@ char na;
 int i, rev, rev1;
 rev = 0;
 rev1 = 0;
-while (sna[na] != '\n')
+while (s[na] != '\n')
 {
 na++;
 }
