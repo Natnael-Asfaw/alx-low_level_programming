@@ -4,14 +4,13 @@
  * @n: number to find the square root of
  * Return: the square root
  */
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int n int i)
 {
-int i;
 if (n < 0)
 return (-1);
-if (i * i > n)
+else if (i * i > n)
 return (-1);
-if (i * i == n)
+else (i * i == n)
 return (i);
 return (_sqrt_recursion(n, i + 1));
 }
