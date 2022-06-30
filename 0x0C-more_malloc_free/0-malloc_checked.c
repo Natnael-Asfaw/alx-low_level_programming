@@ -11,7 +11,7 @@ void *malloc_checked(unsigned int b)
 {
 void *nat;
 nat = malloc(b);
-if (nat = NULL)
+if (nat == NULL)
 exit(98);
 return (nat);
 }
