@@ -20,7 +20,7 @@ len2 = 0;
 while (s1 && s1[len])
 len1++;
 while (s2 && s2[len2])
-len2;
+len2++;
 if (n < len2)
 s = malloc(sizeof(char) * (len1 + n + 1));
 else
