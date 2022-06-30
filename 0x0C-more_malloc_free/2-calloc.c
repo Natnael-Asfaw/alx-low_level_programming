@@ -27,7 +27,7 @@ return (s);
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-char nat;
+char *nat;
 if (nmemb == 0 || size == 0)
 return (NULL);
 nat = malloc(size * nmemb);
