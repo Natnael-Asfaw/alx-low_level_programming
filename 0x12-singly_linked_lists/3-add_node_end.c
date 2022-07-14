@@ -27,7 +27,7 @@ if (*head == NULL)
 return (add);
 }
 while (temp->next)
-temp = next->next;
+temp = temp->next;
 temp->next = add;
 return (add);
 
