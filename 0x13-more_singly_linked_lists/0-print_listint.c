@@ -11,7 +11,7 @@ size_t nat = 0;
 while (h)
 {
 printf("%d\n", h->n);
-num++;
+nat++;
 h = h->next;
 }
 return (nat);
