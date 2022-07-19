@@ -2,7 +2,7 @@
 /**
  * sum_listint - calculates the sum of all the data in a listed link
  * @head: first node in the linked list
- * Reurn: resulting sum
+ * Return: resulting sum
  */
 int sum_listint(listint_t *head)
 {
