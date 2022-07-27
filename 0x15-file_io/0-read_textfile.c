@@ -17,10 +17,10 @@ char *text;
 text = malloc(sizeof(letters));
 
 if (text == NULL)
-return (NULL);
+return (0);
 
 if (filename == NULL)
-return (NULL);
+return (0);
 
 file = open(filename, O_RDONLY);
 
