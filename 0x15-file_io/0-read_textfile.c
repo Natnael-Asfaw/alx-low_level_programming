@@ -24,7 +24,7 @@ return (0);
 
 file = open(filename, O_RDONLY);
 
-if (filee == -1)
+if (file == -1)
 {
 free(text);
 return (0);
