@@ -21,7 +21,7 @@ return (0);
 
 o = open(filename, O_RDONLY);
 r = read(o, buf, letters);
-w = write(STDOUT_FILEND, buf, r);
+w = write(STDOUT_FILENO, buf, r);
 
 if (o == -1 || r == -1 || w == -1 || w != r)
 {
