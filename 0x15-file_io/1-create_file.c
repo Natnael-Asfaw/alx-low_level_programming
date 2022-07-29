@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * create_file -creates a file and fills it with text
@@ -25,7 +25,7 @@ x = write(file, text_content, y);
 if (x != y)
 return (-1);
 }
-close(fd);
+close(file);
 return (1);
 
 }
